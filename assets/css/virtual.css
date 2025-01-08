@@ -1425,3 +1425,35 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.video-zone {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pdf-zone {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.pdf-name {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d15517;
+  }
